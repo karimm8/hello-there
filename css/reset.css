@@ -1,0 +1,122 @@
+:root{
+    --main-color:#10c9b6;
+    --bg-color:hsl(200deg 32.31% 25.49%);
+}
+
+/* margin and padding */
+
+.pad{
+    padding: 100px 150px;
+}
+
+.m-t-70{
+    margin-top: 70px;
+}
+
+/* margin and padding */
+
+/* color */
+
+.main-color{
+    color: var(--main-color);
+}
+
+.bg-color{
+    background-color: #eee;
+}
+
+.bg-white{
+    background-color: var(--bg-white);
+}
+
+.col-text{
+    color: #777;
+}
+
+.text-color{
+    color:hsl(200deg 32.31% 25.49%);
+} 
+
+/* color */
+
+/* box model */
+
+.d-flex{
+    display: flex;
+}
+
+.gap-20{
+    gap: 50px;
+}
+
+/* box model */
+
+/* font and text */
+
+.f-s-20{
+    font-size: 2em;
+}
+
+.f-s-15{
+    font-size: 1.5em;
+}
+
+.f-s-40{
+    font-size: 5em;
+}
+
+.txt-c{
+    text-align: center;
+}
+
+.txt-cap{
+    text-transform: capitalize;
+}
+
+.f-w-b{
+    font-weight: bold;
+}
+
+.f-w-700{
+    font-weight: 700;
+}
+
+.f-w-300{
+    font-weight: 300;
+}
+
+.line{
+    line-height: 1.7;
+}
+
+/* font an text */
+
+/* start compenent */
+
+.heading{
+    color:#ddd;
+    font-size: 5em;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+}
+
+.heading + p{
+    line-height: 20px;
+    position: absolute;
+    transform: translate(-50%, -31px);
+    left: 50%;
+    font-size: 1.5em;
+    color: #777;
+    text-align: center;
+}
+
+/* end compenent */
+
+/* width and height */
+
+.w-100{
+    width: 100%;
+}
+
+/* width and height */
